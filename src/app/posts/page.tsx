@@ -1,3 +1,4 @@
+import LineupForm from "../components/lineups"
 import Scoreboard from "../components/scoreboard"
 
 export default function Page() {
@@ -5,6 +6,7 @@ export default function Page() {
         <div className="text-center pt-12">
             <h1 className="text-3xl capitalize font-bold mb-4">Posts</h1>
             <Scoreboard />
+            <LineupForm />
         </div>
     )
 }
